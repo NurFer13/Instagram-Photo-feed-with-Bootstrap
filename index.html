@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Instanightmare</title>
+
+</head>
+
+<body>
+  <div class="container-fluid supernavbar">
+    <nav class="navbar sticky-top navbar-light">
+      <a class="navbar-brand text-white" href="#"><i class="fa-brands fa-instagram fa-xl text-white"></i>
+        Instanightmare</a>
+      <div class="botones-del-navbar d-flex">
+        <button type="button" class="btn me-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Create new post
+        </button>
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-solid fa-gear"></i>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton2">
+            <li><a class="dropdown-item active" href="#">Profile</a></li>
+            <li><a class="dropdown-item" href="#">Accesibility</a></li>
+            <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item logout" href="#">Log out</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="row">
+      <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+            type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+            <i class="fa-solid fa-table-cells"></i>
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+            type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+            <i class="fa-regular fa-square"></i>
+          </button>
+        </li>
+      </ul>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+      tabindex="0">
+      <div class="container-fluid text-center supercaja mt-3">
+        <div class="row">
+          <div class="col-4">
+            <div class="foto p-3">
+              <img class="object-fit-cover img-fluid border fotoFit rounded w-100"
+                src="https://i.pinimg.com/736x/b4/e6/9a/b4e69af58db26447d2b99694592eb754.jpg" alt="lydia">
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="foto p-3">
+              <img class="object-fit-cover img-fluid border fotoFit rounded w-100"
+                src="https://i.pinimg.com/originals/9f/13/52/9f13522ea37c0da724dbddbdbcef78e4.jpg" alt="gorillaz">
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="foto p-3">
+              <img class="object-fit-cover img-fluid border fotoFit rounded w-100"
+                src="https://majorspoilers.com/wp-content/uploads/2019/01/tank-girl-action-alley-2F.jpg" alt="tgirl">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid text-center supercaja mt-3">
+        <div class="row">
+          <div class="col-4">
+            <div class="foto p-3">
+              <img class="object-fit-cover img-fluid border fotoFit rounded w-100"
+                src="https://wallpapercave.com/dwp1x/0LoQdBJ.jpg" alt="patrick">
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="foto p-3">
+              <img class="object-fit-cover img-fluid border fotoFit rounded w-100"
+                src="https://deciphermedia.tv/assets/imgs/media/tv/rick_and_morty_2013.jpg" alt="morty">
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="foto p-3">
+              <img class="object-fit-cover img-fluid border fotoFit rounded w-100"
+                src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/05/The-siren-pearing-out-of-the-water-at-the-knight-Love-Death--Robots.jpg?q=50&fit=crop&w=750&dpr=1.5"
+                alt="siren">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid text-center supercaja mt-3">
+        <div class="row">
+          <div class="col-4">
+            <div class="foto p-3">
+              <img class="object-fit-cover img-fluid border fotoFit rounded w-100"
+                src="https://eyeondesign.aiga.org/wp-content/uploads/2020/04/hero-cobb-midnight-aiga.jpg"
+                alt="midnightgospel">
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="foto p-3">
+              <img class="object-fit-cover img-fluid border fotoFit rounded w-100"
+                src="https://carboncostume.com/wordpress/wp-content/uploads/2019/03/thewitness-lovedeathandrobots.jpg"
+                alt="thewitness">
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="foto p-3">
+              <img class="object-fit-cover img-fluid border fotoFit rounded w-100"
+                src="https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=[1380%2C131]&w=2000&h=1047&url=https:%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2020%2F12%2F28%2FTHE-GREAT-NORTH2.jpg"
+                alt="thgreatnorth">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+      <div>
+        <div class="post mt-5">
+          <div class="header">
+            <div class="usuario">
+              <h3>The witness 💞</h3>
+              <p>05/02/2023</p>
+            </div>
+          </div>
+          <div class="body">
+            <img src="https://carboncostume.com/wordpress/wp-content/uploads/2019/03/thewitness-lovedeathandrobots.jpg"
+              alt="the witnessss">
+          </div>
+          <div class="footer">
+            <div class="likes">
+              <p>Like by <strong>4Geekacademy and 436 others</strong></p>
+            </div>
+            <div class="descripcion">
+              <p>The episode won 3 Emmy Awards for Outstanding Individual in Animation - production design, Outstanding
+                Individual in Animation - character animation and Outstanding Short Form Animated Program.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="post mt-5">
+        <div class="header">
+          <div class="usuario">
+            <h3>Clancyyyyyy💙</h3>
+            <p>22/12/2022</p>
+          </div>
+        </div>
+        <div class="body">
+          <img src="https://eyeondesign.aiga.org/wp-content/uploads/2020/04/hero-cobb-midnight-aiga.jpg"
+            alt="the midnightgospelll">
+        </div>
+        <div class="footer">
+          <div class="likes">
+            <p>Like by <strong>4Geekacademy and 600 others</strong></p>
+          </div>
+          <div class="descripcion">
+            <p>Clancy Gilroy, who lives on the Chromatic Ribbon, a membranous, tape-like planet situated in the middle
+              of a colorful void where simulation farmers use powerful bio-organic computers to simulate a variety of
+              universes from which they harvest natural resources and new technology</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="post mt-5">
+        <div class="header">
+          <div class="usuario">
+            <h3>Forever fav♥︎</h3>
+            <p>13/12/2022</p>
+          </div>
+
+        </div>
+        <div class="body">
+          <img
+            src="https://i.pinimg.com/736x/e5/4b/c6/e54bc68e2b28509df77afc472c4df7a6--tank-girl-comic-tank-girl-cosplay.jpg"
+            alt="tankg">
+        </div>
+        <div class="footer">
+          <div class="likes">
+            <p>Like by <strong>4Geekacademy and 351 others</strong></p>
+          </div>
+          <div class="descripcion">
+            <p>Tank Girl, created by Jamie Hewlett and Alan Martin, is an extreme character who challenges previously
+              established notions of femininity. Representative of the punk scene, Tank Girl is definitely extreme in
+              her
+              portrayal. Though her hairstyle regularly changes, sometimes from page to page‚ she has been known to have
+              a
+              shaved head or a mohawk, and often wears combat boots and a very skimpy bikini, impractical for the
+              setting.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+<div class="modal fade" id="exampleModal" role="dialog" aria-labelledby="exampleModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Create a new post</h5>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <div class="row">
+            <p>Caption:</p>
+            <textarea name="" id="" cols="30" rows="3"></textarea>
+          </div>
+          <div class="row mt-3">
+            <div class="col-4">
+              <button class="btn btn-light">
+                <i class="fa-solid fa-camera"></i>
+              </button>
+              <button class="btn btn-light">
+                <i class="fa-solid fa-location-dot"></i>
+              </button>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn">Publish</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</html>
